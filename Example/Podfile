@@ -14,9 +14,10 @@ target 'RxRealm_Example' do
   pod 'RxRealmDJB', :path => '../'
 end
 
-target 'RxRealm_Tests' do
-  platform :ios, '9.0'
+target 'RxRealm-tvOS-Example' do
+  platform :tvos, '10.0'
   common
   pod 'RxBlocking', '~> 5.0'
   pod 'RxRealmDJB', :path => '../'
 end
+

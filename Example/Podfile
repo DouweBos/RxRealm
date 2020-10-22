@@ -1,11 +1,11 @@
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 
 use_frameworks!
 
 def common
   pod 'RxSwift', '~> 5.0'
   pod 'RxCocoa', '~> 5.0'
-  pod 'RealmSwift', '~> 5.0'
+  pod 'RealmSwift', '~> 10.0.0'
 end
 
 target 'RxRealm_Example' do

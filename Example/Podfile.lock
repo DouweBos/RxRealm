@@ -9,7 +9,7 @@ PODS:
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
-  - RxRealm (3.1.1):
+  - RxRealmDJB (3.1.1):
     - RealmSwift (~> 10.0.0)
     - RxSwift (~> 5.0)
   - RxRelay (5.1.1):
@@ -20,7 +20,7 @@ DEPENDENCIES:
   - RealmSwift (~> 10.0.0)
   - RxBlocking (~> 5.0)
   - RxCocoa (~> 5.0)
-  - RxRealm (from `../`)
+  - RxRealmDJB (from `../`)
   - RxSwift (~> 5.0)
 
 SPEC REPOS:
@@ -33,7 +33,7 @@ SPEC REPOS:
     - RxSwift
 
 EXTERNAL SOURCES:
-  RxRealm:
+  RxRealmDJB:
     :path: "../"
 
 SPEC CHECKSUMS:
@@ -41,10 +41,10 @@ SPEC CHECKSUMS:
   RealmSwift: 5b4c8c85be4c14ff52054a4d80a8d338167dd79c
   RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
-  RxRealm: 728a2d1baf9687ff08a84408db62dcd0fadc335d
+  RxRealmDJB: 5cc4ed64e2178dbf5b279617f537119f9a380aff
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: 9bbc43b40d9b78f5a172af9bab5b111f04ddd8a1
+PODFILE CHECKSUM: c4907a0b0907942ea52e1c16fba54e8e2d37b604
 
 COCOAPODS: 1.10.0

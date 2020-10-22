@@ -9,7 +9,7 @@
 import RealmSwift
 import RxBlocking
 import RxCocoa
-import RxRealm
+import RxRealmDJB
 import RxSwift
 import XCTest
 

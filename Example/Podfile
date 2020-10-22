@@ -11,12 +11,12 @@ end
 target 'RxRealm_Example' do
   platform :ios, '9.0'
   common
-  pod 'RxRealm', :path => '../'
+  pod 'RxRealmDJB', :path => '../'
 end
 
 target 'RxRealm_Tests' do
   platform :ios, '9.0'
   common
   pod 'RxBlocking', '~> 5.0'
-  pod 'RxRealm', :path => '../'
+  pod 'RxRealmDJB', :path => '../'
 end

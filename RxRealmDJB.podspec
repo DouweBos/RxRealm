@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name             = "RxRealm"
+  s.name             = "RxRealmDJB"
   s.version          = "3.1.1"
   s.summary          = "An Rx wrapper of Realm's notifications and write bindings"
   s.swift_version    = "5.0"
@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
     to use Realm's natively reactive collection type as an Observable
                        DESC
 
-  s.homepage         = "https://github.com/RxSwiftCommunity/RxRealm"
+  s.homepage         = "https://github.com/DouweBos/RxRealm"
   s.license          = 'MIT'
   s.author           = { "Marin Todorov" => "marin@underplot.com" }
-  s.source           = { :git => "https://github.com/RxSwiftCommunity/RxRealm.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/DouweBos/RxRealm.git", :tag => s.version.to_s }
 
   s.requires_arc = true
 

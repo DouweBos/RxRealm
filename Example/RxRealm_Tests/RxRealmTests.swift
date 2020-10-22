@@ -7,7 +7,7 @@
 import XCTest
 
 import RealmSwift
-import RxRealm
+import RxRealmDJB
 import RxSwift
 
 // TODO: remove

@@ -9,7 +9,7 @@
 import XCTest
 
 import RealmSwift
-import RxRealm
+import RxRealmDJB
 import RxSwift
 
 class RxRealmListTests: XCTestCase {

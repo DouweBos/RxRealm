@@ -8,7 +8,7 @@
 
 import Foundation
 import RealmSwift
-import RxRealm
+import RxRealmDJB
 
 func realmInMemory(_ name: String = UUID().uuidString) -> Realm {
     var conf = Realm.Configuration()
